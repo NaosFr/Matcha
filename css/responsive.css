@@ -1,0 +1,284 @@
+/*****************************************************************
+  GRAND ECRAN
+*****************************************************************/
+
+@media (min-width: 1700px) and (max-width: 12000px){
+
+
+
+}
+
+/*****************************************************************
+  PC PORTABLE
+*****************************************************************/
+
+@media (min-width: 1024px) and (max-width: 1279px){
+
+
+}
+
+/*****************************************************************
+  TABLETTE PAYSAGE
+*****************************************************************/
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+
+}
+
+/*****************************************************************
+  TABLETTE PORTRAIT
+*****************************************************************/
+
+@media (min-width: 400px) and (max-width: 767px){
+
+header {
+    height: 60px;
+}
+
+.float_menu_rigth a{
+	display: none;
+}
+
+.cross{
+	display: block;
+}
+
+footer{
+	display: block;
+}
+
+/***** MATCH *****/
+.filter{
+    display: block;
+    z-index: 1;
+}
+
+.form_tag {
+    margin-top: -175px;
+}
+
+.filter form #submit{
+    margin-bottom: 80px!important;
+}
+
+.user_card {
+    margin-right: 0px;
+}
+
+.users {
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+/***** PROFIL *****/
+
+.info_pic, .info {
+    display: block;
+}
+
+.picture {
+    width: 100%;
+    border-bottom: 0px;
+}
+
+.activity, #map, #list_tag{
+	width: 100%;
+	height: 200px;
+}
+
+#map{
+	min-height: 250px;
+}
+
+.bio {
+    text-align: left;
+}
+
+/***** USER PROFIL *****/
+
+.match_or_no img {
+    width: 19vw;
+}
+
+.match_or_no {
+    left: 0px;
+    width: 100%;
+}
+
+.name {
+    font-size: 25px;
+}
+
+/***** NOTIF *****/
+
+.notif_container {
+    right: 0px;
+    top: 60px;
+}
+
+/***** CHAT *****/
+
+.users_msg{
+    padding-left: 0px;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.user_conv {
+    padding-top: 60px;
+}
+
+.submit {
+    margin-right: 0px;
+}
+
+/*form {
+    bottom: 42px;
+}*/
+
+.icon_chat_div{
+    display: none;
+}
+
+}
+
+/*****************************************************************
+  SMARTPHONE
+*****************************************************************/
+
+@media all and (max-width: 399px){
+
+header {
+    height: 60px;
+}
+
+.float_menu_rigth a{
+	display: none;
+}
+
+.cross{
+	display: block;
+}
+
+footer{
+	display: block;
+}
+
+/***** MATCH *****/
+.filter{
+    display: block;
+    z-index: 1;
+}
+
+.form_tag {
+    margin-top: -175px!important;
+}
+
+.filter form #submit{
+    margin-bottom: 80px!important;
+}
+
+.user_card {
+    margin-right: 0px;
+}
+
+.users {
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+/***** PROFIL *****/
+
+.info_pic, .info {
+    display: block;
+}
+
+.picture {
+    width: 100%;
+    border-bottom: 0px;
+}
+
+.activity, #map, #list_tag{
+	width: 100%;
+	height: 200px;
+}
+
+#map{
+	min-height: 250px;
+}
+
+.bio {
+    text-align: left;
+}
+
+/***** USER PROFIL *****/
+
+.match_or_no img {
+    width: 19vw;
+}
+
+.match_or_no {
+    left: 0px;
+    width: 100%;
+}
+
+.name {
+    font-size: 25px;
+}
+
+/***** SETTING *****/
+
+#form form {
+    width: 100%;
+}
+
+/***** REGISTER *****/
+
+.page_account-register{
+	margin-top: 140px;
+}
+
+/***** LOGIN *****/
+
+.page_account-login{
+    margin-top: -18px;
+}
+
+/***** NOTIF *****/
+
+.notif_container {
+    right: 0px;
+    top: 60px;
+}
+
+/***** CHAT *****/
+
+.users_msg{
+    padding-left: 0px;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.user_conv {
+    padding-top: 60px;
+}
+
+.submit {
+    margin-right: 0px;
+}
+
+/*form {
+    bottom: 42px;
+}
+*/
+.icon_chat_div{
+    display: none;
+}
+
+}
+
+
+

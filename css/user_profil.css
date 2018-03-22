@@ -1,0 +1,229 @@
+body{
+  overflow: auto!important;
+}
+
+/*****************************************************************
+  CARD PROFIL
+*****************************************************************/
+
+.card_profil{
+    width: 100%;
+    height: auto;
+    color: black;
+    position: absolute;
+    font-size: 26px; 
+    margin-top: 100px;
+}
+
+.title{
+	margin-bottom: 70px;
+	font-family: 'Montserrat';	
+	border-bottom: 5px solid #35E2DF;
+	width: fit-content;
+  width: -moz-fit-content;
+	margin-left: 30px;
+}
+
+/*****************************************************************
+  PICTURE + ACTIVITY
+*****************************************************************/
+
+.info_pic{
+	display: flex;
+	background-color: rgb(35, 35, 35);
+}
+
+.picture{
+    width: 50%;
+    max-width: 800px;
+    position: relative;
+    border-bottom: 4px solid #ec008b;
+}
+
+.w3-button{
+    position: absolute;
+	width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #8a868661;
+    border: .5px solid #35E2DF;
+    cursor: pointer;
+    bottom: 40%;	
+}
+
+.w3-button:hover{
+	background-color: #e6dfdf6b;
+}
+
+.w3-display-left p, .w3-display-right p{
+	margin-top: 10px;
+}
+
+.w3-display-left{
+	left: 0px;
+	border-left: 0px;
+}
+
+.w3-display-right{
+	right: 0px;
+	border-right: 0px;
+}
+
+.mySlides{
+	width: 100%;
+}
+
+.activity{
+    width: 50%;
+    color: white;
+	text-align: center;
+    background-color: #232323;
+    border-bottom: 4px solid #ec008b;
+    font-size: 13px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.activity h2{
+	text-align: left;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	border-bottom: 5px solid #35E2DF;
+	width: fit-content;
+  width: -moz-fit-content;
+}
+
+.connexion{
+	text-align: left;
+}
+
+.match_or_no{
+    width: 90%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    display: -webkit-flex;
+}
+.match_or_no img{
+    width: 9vw;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.match_or_no img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.lock, .report{
+	cursor: pointer;
+    color: #da5959;
+    position: absolute;
+    bottom: 0px;
+}
+
+.lock{
+	left: 20px;
+}
+
+.report{
+	right: 20px;
+}
+/*****************************************************************
+  ABOUT
+*****************************************************************/
+
+
+.about{
+	color: rgb(53, 226, 223);
+	font-weight: 800;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 120px;
+	font-size: 18px;
+}
+
+.age{
+	font-weight: 800;
+	text-align: left;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+
+.name{
+	text-align: left;
+	margin-left: 30px;
+	font-family: 'Montserrat';
+	border-bottom: 5px solid #35E2DF;
+	width: fit-content;
+  width: -moz-fit-content;
+	font-size: 35px;
+}
+
+.score{
+	text-align: left;
+	margin-left: 30px;
+	font-family: 'Montserrat';
+	margin-bottom: 120px;
+}
+
+.bio{
+	padding: 40px 20px 20px 0px;
+	text-align: justify;
+	margin-left: 30px;
+	margin-top: -15px;
+}
+
+/*****************************************************************
+  MAP + TAGS
+*****************************************************************/
+
+
+.info{
+	display: flex;
+	background-color: rgb(35, 35, 35);
+}
+
+#map{
+    text-align: initial;
+    width: 50%;
+    min-height: 400px;
+    height: auto;
+}
+
+.mapboxgl-ctrl, .mapboxgl-ctrl-bottom-left{
+	display: none;
+}
+
+#list_tag{
+ 	width: 50%;
+  height: auto;
+  text-align: center;
+  overflow: auto;
+}
+
+#list_tag p{
+  display: inline-flex;
+  position: relative;
+  color: white;
+  background-color: #dcdcdc57;
+  border: .5px solid rgb(53, 226, 223);
+  width: fit-content;
+  padding: 3px 8px 3px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+#list_tag p:hover{
+  background-color: #d8d5d5a1;
+}

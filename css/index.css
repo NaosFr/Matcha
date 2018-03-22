@@ -1,0 +1,77 @@
+body{
+	overflow: hidden!important
+}
+
+header{
+	height: 60px!important;
+}
+
+.background_menu{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	display: -webkit-flex;
+	cursor: pointer;
+	background-image: url(../assets/icon/background-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+}
+
+.title_square{
+    padding: 40px 100px;
+    color: #ffffff;
+    background: #6f6f6f54;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+
+.title_square:after, .title_square:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #ec008b;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.title_square:after {
+	background: #6f6f6f1f;
+    -webkit-transform: translate(6px, 6px);
+    transform: translate(6px, 6px);
+    border-color: #35e2df;
+}
+
+
+.title_square a{
+	color: white;
+}
+
+.title_square:hover:after{
+    transform: translate(0);
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-image: linear-gradient(to right, #ec008b, #35e2df);
+    border-image-slice: 1;
+}
+

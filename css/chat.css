@@ -1,0 +1,156 @@
+body{
+	background-color: #b1b1b1;
+}
+
+.user_conv{
+    background-color: white;
+    border-right: 4px solid rgb(53, 226, 223);
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    left: 0px;
+    padding-top: 80px;
+    text-align: left;
+    z-index: 1;
+}
+
+.user_conv div{
+	width: 100%;
+	cursor: pointer;
+	border-bottom: 1px solid #23232345;
+	display: inline-flex;
+	justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.user_conv div:hover{
+	background-color: #f3efef;
+}
+
+.user_conv div p{
+	padding-left: 20px;
+}
+
+.user_conv img{
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+    position: absolute;
+}
+
+
+.users_msg{
+	padding-left: 234px;
+    padding-top: 80px;
+    width: -webkit-fill-available;
+    text-align: center;
+    background-color: #b1b1b1;
+    overflow: auto;
+    padding-bottom: 70px;
+    height: calc(100% - 55px);
+
+}
+
+form{
+    position: fixed;
+    bottom: 0px;
+    width: -webkit-fill-available;
+    background: #b1b1b1;
+    padding: 12px 0;
+}
+
+.input_txt{
+    text-align: justify;
+        white-space: normal;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+     -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+        width: 50%;
+    border: 0px;
+    padding: 9px;
+}
+
+.submit {
+    margin-right: 200px;
+     border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+     -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+        width: 100px;
+    border: 0px;
+    padding: 9px;
+    background-color: #35e3df9c;
+    font-weight: 800;
+    letter-spacing: 8px;
+}
+
+.my_msg{
+    background-color: white;
+    max-width: 50%;
+        padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+     border-radius: 7px;
+     margin-left: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+     -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+}
+
+.user_msg{
+    background-color: #35e3df9c;
+    margin-left: 50%;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    margin-right: 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+}
+
+.div_user_msg{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.div_my_msg{
+    text-align: left; 
+    margin-top: 20px;
+}
+
+.user_conv img:first-child{
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    left: 10px;
+}
+
+#trash_convo{
+    width: 20px;
+    right: 10px;
+}
+.users_msg_form{
+    padding-left: 234px;
+    padding-top: 80px;
+    width: -webkit-fill-available;
+    text-align: center;
+    background-color: #b1b1b1;
+    overflow: auto;
+    padding-bottom: 70px;
+}
+
+

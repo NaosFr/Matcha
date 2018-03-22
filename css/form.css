@@ -1,0 +1,199 @@
+body{
+  background-image: url(../assets/icon/background-blur.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    bac
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+}
+
+#form{
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(../assets/icon/background-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+}
+
+#form form{
+    position: absolute;
+    text-align: center;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    -webkt-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+}
+
+#form form input[type=password], input[type=email], input[type=login], input[type=submit], input[type=text], input[type=text], input[type=number], option, select, textarea{
+    position: relative;
+    text-align: center;
+    height: 30px;
+    border: 0px;
+    left: 0px;
+    font-size: 13px;
+    -webkit-border-radius: 0;
+    background-color: #f3f3f3;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    -webkt-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#form form input[type=password], input[type=email], input[type=login], input[type=submit], input[type=text], input[type=text]{
+    width: 90%;
+    -webkit-appearance: none;
+}
+
+#form form input[type=number], option{
+    width: 30%;
+    -webkit-appearance: none;
+}
+
+select{
+    width: 30%;
+    height: 30px; 
+}
+
+textarea{
+    width: 90%;
+    height: 100px;
+    text-align: left;
+}
+
+#form .submit{
+    height: 55px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border: 0px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #21201ecf;
+    border-radius: 0px 0px 5px 5px;
+    -webkt-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    font-size: 18px;
+}
+
+#form .submit:after, #form .submit:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #ec008b;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+#form .submit:hover{
+    background-color: #4e4c48cf;
+}
+
+#form form p{
+	position: relative;
+	text-align: center;
+}
+
+#form p{
+	margin-bottom: -2px;
+}
+
+.register{
+    margin-top: 40px; 
+}
+
+a{
+    text-decoration: none;
+    color: #c72545;
+}
+
+.g-recaptcha{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#capatcha {
+    margin-bottom: -26px!important;
+    text-align: center;
+    margin: 0 auto;
+    display: block
+}
+
+/*****************************************************************
+  REGISTER
+*****************************************************************/
+
+.page_account-register{
+    margin-top: 140px;
+}
+
+.page_account-register form{
+    width: 400px;
+    height: 735px;
+    margin-bottom: 100px;
+}
+
+/*****************************************************************
+  LOGIN
+*****************************************************************/
+
+.page_account-login form{
+    width: 400px;
+    height: 425px;
+}
+
+/*****************************************************************
+  PASSWD FORGOT
+*****************************************************************/
+
+.page_account-forgot form{
+    width: 400px;
+    height: 225px;
+}
+
+/*****************************************************************
+  DEL ACCOUNT
+*****************************************************************/
+
+.page_account-delete form{
+    width: 400px;
+    height: 305px;
+}
+
+
+.page_account-delete form{
+    -webkit-box-shadow: 0 4px 6px rgba(140, 59, 59, 0.85), 0 1px 3px rgba(228, 49, 49, 0.92)!important;
+    box-shadow: 0 4px 6px rgba(140, 59, 59, 0.85), 0 1px 3px rgba(228, 49, 49, 0.92)!important;
+}
+
+
